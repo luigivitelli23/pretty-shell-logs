@@ -1,0 +1,20 @@
+{
+  "name": "pretty-shell-logs",
+  "version": "0.1.0",
+  "description": "Utilities package for have a really consultable console",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "logs",
+    "console",
+    "warning",
+    "error",
+    "info",
+    "debug",
+    "color"
+  ],
+  "author": "Zoid23",
+  "license": "ISC"
+}
