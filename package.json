@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Utilities package for have a really consultable console",
   "main": "index.js",
+  "homepage": "https://github.com/luigivitelli23/pretty-shell-logs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

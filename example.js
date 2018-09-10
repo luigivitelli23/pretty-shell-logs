@@ -1,27 +1,42 @@
-import logger from 'pretty-shell-logs'
+const logger = require('./index')
 
-logger.init({
-  titleMinimumWidth: 10,
+const obj = {
+  titleMinimumWidth: 40,
 	level: 'debug',
 	showDate: true,
-  titleColorReverse: true,
+  titleColorReverse: false,
   showLevelLabel: true,
 	grep: {
-		title: '',
-		content: ''
+		title: '1',
+		content: '',
 	},
 	exclude: {
 		title: '',
 		content: '',
-	}
+	},
+}
+logger.init({
+  titleMinimumWidth: 40,
+	level: 'debug',
+	showDate: true,
+  titleColorReverse: false,
+  showLevelLabel: true,
+	grep: {
+		title: '',
+		content: '',
+	},
+	exclude: {
+		title: '',
+		content: '',
+	},
 })
 
-const serverLog = logger.create('server', 'blue')
+const tagOneLog = logger.create('Tag nr 1', 'blue')
+tagOneLog.d('Debug log')
+tagOneLog.i('Info log')
+tagOneLog.w('Warning log')
 
-const prettyObj = serverLog.pretty({ foo: 'bar'}, 'Object description')
-
-serverLog.d('Debug log', prettyObj)
-serverLog.i('Info log', prettyObj)
-serverLog.w('Warning log', prettyObj)
-serverLog.e('Error log', prettyObj)
-serverLog.s('Success log', prettyObj)
+const tagTwoLog = logger.create('Tag nr 2', 'magenta')
+tagTwoLog.e('Error log')
+tagTwoLog.s('Success log')
+tagTwoLog.w('Warning log with a \'pretty\' object', tagTwoLog.pretty(obj, 'Object description'))
