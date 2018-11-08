@@ -1,4 +1,6 @@
 # Pretty shell logs
+ [![NPM](https://img.shields.io/badge/pretty%20shell%20logs-0.1.2-blue.svg?logo=npm&longCache=true&style=flat)](https://www.npmjs.com/package/pretty-shell-logs)
+
 Utilities package for have a really consultable console
 
 ## TAGS
@@ -59,8 +61,8 @@ tagTwoLog.w('Warning log with a \'pretty\' object',obj, tagTwoLog.pretty(obj, 'O
 
 #### Usage results
 
-![](img/example.png)
+<img src="https://github.com/luigivitelli23/pretty-shell-logs/raw/master/img/example.png">
 
 `titleColorReverse` as *true*:
 
-![](img/example_dark.png)
+<img src="https://github.com/luigivitelli23/pretty-shell-logs/raw/master/img/example_dark.png">
