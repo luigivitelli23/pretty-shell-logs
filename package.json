@@ -1,6 +1,6 @@
 {
   "name": "pretty-shell-logs",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Utilities package for have a really consultable console",
   "main": "index.js",
   "homepage": "https://github.com/luigivitelli23/pretty-shell-logs",

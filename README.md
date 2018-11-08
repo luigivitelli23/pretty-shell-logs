@@ -1,5 +1,5 @@
 # Pretty shell logs
- [![NPM](https://img.shields.io/badge/pretty%20shell%20logs-0.1.2-blue.svg?logo=npm&longCache=true&style=flat)](https://www.npmjs.com/package/pretty-shell-logs)
+ [![NPM](https://img.shields.io/badge/pretty%20shell%20logs-0.1.3-blue.svg?logo=npm&longCache=true&style=flat)](https://www.npmjs.com/package/pretty-shell-logs)
 
 Package to have a really consultable console
 
